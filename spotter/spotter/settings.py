@@ -69,7 +69,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'spotter.wsgi.application'
 
-# Database configuration for PostgreSQL exclusively.
+# Database configuration for PostgreSQL
 DATABASES = {
     'default': {
         'ENGINE': config('DB_ENGINE', default='django.db.backends.postgresql'),
